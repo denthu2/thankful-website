@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 7th Anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy 7th Anniversary 🎉</h1>
+        <p>Dear Robert,</p>
+        <p>You’re the love of my life. Thank you for being with me for these amazing seven years.</p>
+        <p>Every 2-hour happy hour date, every laugh, every memory—we’ve built something beautiful together. You’re the reason I never stop reaching for our dreams and for our family.</p>
+        <p>Here's to all the adventures, laughs, and endless moments we’ll keep sharing. I love you with all my heart!</p>
+        <p>Forever yours,</p>
+        <p><strong>Your Forever Partner</strong></p>
+
+        <!-- Interactive Button Section -->
+        <div class="buttons">
+            <p>Do you love me too?</p>
+            <button onclick="showYes()">Yes</button>
+            <button onclick="showNo()">No</button>
+        </div>
+
+        <!-- Response Section -->
+        <p id="response" class="response"></p>
+    </div>
+
+    <script>
+        function showYes() {
+            document.getElementById("response").innerText = "I knew it! ❤️";
+        }
+
+        function showNo() {
+            document.getElementById("response").innerText = "You're kidding, right? 😆";
+        }
+    </script>
+</body>
+</html>
