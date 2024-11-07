@@ -1,4 +1,4 @@
-/* Chiang Mai-inspired background and body styling */
+/* Background styling */
 body {
     background-image: url('https://example.com/your-chiang-mai-background.jpg'); /* Replace with your Chiang Mai-themed image URL */
     background-size: cover;
@@ -12,44 +12,44 @@ body {
     color: #333;
 }
 
-/* Container styling with modern color scheme */
+/* Container styling */
 .container {
     max-width: 600px;
-    padding: 30px 40px;
-    background-color: rgba(255, 255, 255, 0.85); /* Light, translucent background */
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 40px 50px;
+    background-color: rgba(255, 250, 240, 0.9); /* Soft, warm background */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
-    border: 1px solid #ff9f80;
+    border: 2px solid #ff9999;
 }
 
 /* Main heading styling */
 h1 {
-    color: #ff6f61;
-    font-size: 2.5em;
-    font-weight: 700;
+    color: #d45d79;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.7em;
     margin-bottom: 20px;
 }
 
 /* Paragraph styling */
 p {
     color: #555;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
-    line-height: 1.6;
+    line-height: 1.8;
     margin: 10px 0;
-    font-weight: 300;
 }
 
 /* Signature styling */
 strong {
-    color: #ff6f61;
+    color: #d45d79;
     font-size: 1.2em;
-    font-weight: 700;
+    font-weight: bold;
 }
 
-/* Button styling */
+/* Button section styling */
 .buttons {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .buttons p {
@@ -58,15 +58,17 @@ strong {
     margin-bottom: 10px;
 }
 
+/* Button styling with gradient and shadow */
 button {
-    background-color: #ff6f61;
+    background: linear-gradient(145deg, #ff9aa2, #ff6f61);
     color: white;
     border: none;
     padding: 12px 25px;
     font-size: 1em;
     margin: 5px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -78,7 +80,7 @@ button:hover {
 /* Response styling */
 .response {
     margin-top: 20px;
-    font-size: 1.2em;
-    color: #ff6f61;
+    font-size: 1.3em;
+    color: #d45d79;
     font-weight: bold;
 }
